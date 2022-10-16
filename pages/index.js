@@ -65,6 +65,7 @@ export default function Home() {
                       src={qrcode}
                       width={280}
                       height={280}
+                      alt="QR Code Generated"
                       className="py-2 px-auto"
                     />
                     <div className="flex justify-center text-center">
