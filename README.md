@@ -1,4 +1,24 @@
+# Overview
+## `Mainscreen`
+<img width="25%" height="25%" src="https://user-images.githubusercontent.com/71186310/196052414-e217c772-b344-4adf-8e81-28c0dae17938.png">
+
+## `Mainscreen after generate a QR Code`
+<img width="25%" height="25%" src="https://user-images.githubusercontent.com/71186310/196052600-f3635486-31c9-4eee-9097-5569cc132a00.png">
+
+## `Project running`
+<img src="https://user-images.githubusercontent.com/71186310/196054218-66a3a734-5765-467a-94fc-80a8fc25665e.gif">
+
+## `Technologies used in this project`
+<div>
+  <img align="center" height="90" widht="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
+  <img align="center" height="120" widht="130" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
+ 
+</div>
+<br />
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+**Credits to @soldair/node-qrcode for making this amazing package**
 
 ## Getting Started
 
