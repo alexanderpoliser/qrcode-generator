@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import { useState } from "react";
 import QRCode from "qrcode";
 import Swal from "sweetalert2";
@@ -60,13 +61,19 @@ export default function Home() {
               <div className="flex flex-col text-center mt-10 shadow-lg">
                 {qrcode && (
                   <>
-                    <img src={qrcode} />
-                    <div className="">
+                    <Image
+                      src={qrcode}
+                      width={280}
+                      height={280}
+                      className="py-2 px-auto"
+                    />
+                    <div className="flex justify-center text-center">
                       <a
-                        className="rounded-md bg-green-500 text-gray-50 py-5 px-5 text-center hover:bg-green-400 hover: transform transition"
+                        className="rounded-md bg-green-500 text-gray-50 py-3 px-5 mb-3 hover:bg-green-400 hover: transform transition"
                         href={qrcode}
                         download="qrcode.png"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Download
                       </a>
